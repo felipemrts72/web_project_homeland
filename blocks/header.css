@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  padding-bottom: 92px;
+}
+
+.header__content {
+  max-width: 984px;
+}
+.header__content-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  font-size: 100px;
+  line-height: 96px;
+}
+
+.header__content-text {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
