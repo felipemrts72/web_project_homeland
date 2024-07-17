@@ -36,3 +36,39 @@
   line-height: 26.08px;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding-bottom: 92px;
+  }
+
+  .main__content {
+    max-width: 752px;
+  }
+  .main__content-title {
+    margin-bottom: 45px;
+    font-size: 49px;
+    line-height: 53px;
+    max-width: 100%;
+  }
+
+  .main__cite {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding-bottom: 88px;
+  }
+
+  .main__content {
+    max-width: 720px;
+  }
+  .main__content-title {
+    margin-bottom: 50px;
+    font-size: 45px;
+    line-height: 49px;
+    max-width: 707px;
+  }
+}
