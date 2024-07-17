@@ -72,3 +72,19 @@
     max-width: 707px;
   }
 }
+
+@media screen and (max-width: 544px) {
+  .main {
+    padding-bottom: 76px;
+  }
+
+  .main__content {
+    max-width: 504px;
+  }
+  .main__content-title {
+    margin-bottom: 45px;
+    font-size: 38px;
+    line-height: 42px;
+    max-width: 707px;
+  }
+}
