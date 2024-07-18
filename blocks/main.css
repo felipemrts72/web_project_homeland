@@ -90,3 +90,16 @@
     max-width: 707px;
   }
 }
+@media screen and (max-width: 320px) {
+  .main {
+    padding: 0 16px 64px;
+  }
+  .main__content-title {
+    margin-bottom: 45px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .main__cite-name {
+    margin-top: 10px;
+  }
+}
