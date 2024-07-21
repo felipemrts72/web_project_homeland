@@ -1,0 +1,8 @@
+.art {
+  margin: 118px auto 0;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+}
