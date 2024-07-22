@@ -64,11 +64,6 @@
   grid-row: 2;
   margin-top: 508px;
 }
-.nft__link {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-}
 
 .nft__span-accent {
   display: flex;
