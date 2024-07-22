@@ -50,9 +50,11 @@
   border-radius: 4px;
   border: none;
 }
-.nft__description_pos_bottom {
-  margin-top: 228px;
+.nft__buy_pos_grid {
+  grid-row: 2;
+  margin-top: 508px;
 }
+
 .nft__span-accent {
   display: flex;
   margin-top: 25px;
