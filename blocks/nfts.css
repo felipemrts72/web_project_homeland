@@ -6,69 +6,6 @@
   max-width: 984px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
-.nft {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    "title artists"
-    "image desc"
-    "button .";
-  row-gap: 48px;
-}
-.nft__title {
-  grid-area: title;
-  font-size: 72px;
-  line-height: 76px;
-  font-weight: 900;
-  max-width: 460px;
-  margin: 0;
-}
-
-.nft__image {
-  grid-area: image;
-  box-shadow: 10px 10px 25px rgb(0, 0, 0, 0.5);
-  background-color: black;
-}
-.nft__image:hover {
-  opacity: 0.5;
-}
-.nft__description {
-  grid-area: desc;
-  max-width: 484px;
-  margin: 0;
-  font-size: 18px;
-  line-height: 29.34px;
-}
-.nft__buy {
-  grid-area: button;
-  max-width: 356px;
-  height: 48px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 21.78px;
-  color: white;
-  background: linear-gradient(to right, #0278fe, #003a7b);
-  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.25);
-  border-radius: 4px;
-  border: none;
-}
-.nft__buy:hover {
-  background: linear-gradient(
-    to right,
-    rgba(2, 120, 254, 0.25),
-    rgba(0, 58, 123, 0.25)
-  );
-}
-.nft__buy_pos_grid {
-  grid-row: 2;
-  margin-top: 508px;
-}
-
-.nft__span-accent {
-  display: flex;
-  margin-top: 25px;
-}
 
 @media screen and (max-width: 768px) {
   .nfts {
@@ -76,54 +13,11 @@
     row-gap: 72px;
     max-width: 720px;
   }
-  .nft__title {
-    font-size: 42px;
-    line-height: 46px;
-    max-width: 340px;
-  }
-  .nft__image {
-    max-width: 340px;
-    width: 100%;
-  }
-  .nft__description {
-    max-width: 352px;
-    font-size: 16px;
-    line-height: 26.08px;
-  }
-  .nft__buy {
-    max-width: 355px;
-    grid-row: 2;
-    margin-top: 388px;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .nfts {
     max-width: 320px;
     margin-bottom: 104px;
-  }
-  .nft {
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-  }
-  .nft__title {
-    font-size: 32px;
-    line-height: 35px;
-    margin: 0 auto;
-    max-width: 288px;
-    width: 100%;
-  }
-  .nft__description {
-    max-width: 288px;
-    margin: 0 auto;
-  }
-  .nft__buy {
-    max-width: 288px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 30px;
-    font-size: 14px;
-    line-height: 16.94px;
   }
 }
