@@ -68,8 +68,7 @@
   .nft__title {
     font-size: 42px;
     line-height: 46px;
-    margin-top: 20px;
-    max-width: 460px;
+    max-width: 340px;
   }
   .nft__image {
     max-width: 340px;
@@ -84,5 +83,36 @@
     max-width: 355px;
     grid-row: 2;
     margin-top: 388px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nfts {
+    max-width: 320px;
+    margin-bottom: 104px;
+  }
+  .nft {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .nft__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto;
+    max-width: 288px;
+    width: 100%;
+  }
+  .nft__description {
+    max-width: 288px;
+    margin: 0 auto;
+  }
+  .nft__buy {
+    max-width: 288px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 16.94px;
   }
 }
