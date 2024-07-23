@@ -19,7 +19,7 @@
 
 .nft__image {
   grid-area: image;
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.251);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   background-color: black;
 }
 .nft__image:hover {
@@ -40,21 +40,14 @@
   font-size: 18px;
   line-height: 21.78px;
   color: white;
-  background: linear-gradient(
-    90deg,
-    rgb(2, 120, 254) 0.56%,
-    rgb(0, 58, 123) 100%
-  );
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.251);
   border-radius: 4px;
   border: none;
 }
 .nft__buy:hover {
-  background: linear-gradient(
-    to right,
-    rgba(2, 120, 254, 0.25),
-    rgba(0, 58, 123, 0.25)
-  );
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 .nft__buy_pos_grid {
   grid-row: 2;
